@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            
+            h1{
+                color:rgb(102, 173, 31);
+            }
+            
+            h3{
+                color:red;
+            }
+            
+            .highlights{
+                color:rgb(247, 195, 8);
+            }
+            
+            #introduction{
+                color:green;
+            }
+            
+        </style>
+    </head>
+    <body>
+    
+        <h1>Italy</h1>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg" alt="Rome Colosseum" width="380">
+        
+        <h3>About</h3>
+        <p id="introduction">Italy, located in Europe, is a country that has had a significant impact on culture, as well as cuisine throughout the region. Italy is found along the Mediterranean coastline and has many beautiful cities, like Venice, Florence, and its capital, Rome.</p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Italy_on_the_globe_%28Europe_centered%29.svg" alt="Italy on world map" width="100">
+        
+        <h3>Attractions</h3>
+        
+        <h4>Rome</h4>
+        
+        <p class="highlights">Highlights include:</p>
+        <ul>
+            <li>the Colosseum</li>
+            <li>Capitoline Museums</li>
+        </ul>
+        
+        <p>The country's capital is full of many historical landmarks and attractions. First off, get a taste of Rome's history through a trip to the Colosseum.</p>
+        <p>Built between 70 A.D. and 80 A.D., the Colosseum is Rome's most famous amphitheatre. This landmark is known globally as it was the largest amphitheatre built at the time, measuring 48 meters tall!</p>
+        <p>Experience the culture of the city by taking in the Capitoline Museums. Full of ancient art and architecture, this museum is definitively considered one of Rome's greatest attractions, right on the top of Capitoline Hill. </p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/0_Colosseum_-_Rome_111001_%282%29.JPG/800px-0_Colosseum_-_Rome_111001_%282%29.JPG" alt="Colosseum" height="100">
+        
+        
+        <h4>Venice</h4>
+        
+        <p class="highlights">Highlights include:</p>
+        <ul>
+            <li>St. Mark's Basilica</li>
+            <li>The Grand Canal</li>
+            <li>Rialto Bridge</li>
+        </ul>
+        
+        <p>Experience the beautiful city of Venice through a trip to St. Mark's Basilica, a cathedral church of the Roman Catholics.</p>
+        <p>Following the Basilica, get a taste of the Grand Canal, and Rialto Bridge.<br>
+        <br>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/St_Mark%27s_Basilica_facade.jpg" alt="St. Mark's Basilica" height="103">
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Hotel_Ca_Sagredo_-_Grand_Canal_-_Rialto_-_Venice_Italy_Venezia_-_Creative_Commons_by_gnuckx_%284776651712%29.jpg" alt="Grand Canal Venice" height="103">
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Rialto_bridge_2011.jpg/800px-Rialto_bridge_2011.jpg" alt="Rialto Bridge" height="103">
+        
+        <h4>Pisa</h4>
+        
+        <p class="highlights">Highlights include:</p>
+        <ul>
+            <li>the Leaning Tower of Pisa</li>
+        </ul>
+        <p>The Leaning Tower of Pisa is a famous tower throughout the world as it was built on an unstable foundation. At one point, it had nearly a <strong><em>10 degree</em> lean</strong>! This was built on August 9, 1173 and has become one of Italy's most popular attractions.</p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/The_Leaning_Tower_of_Pisa_SB.jpeg" alt="Leaning Tower of Pisa" height="150">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Leaning_Tower_of_Pisa_-_panoramio.jpg" alt="Leaning Tower of Pisa side" height="150">
+        
+        <h4>Florence</h4>
+        
+        <p class="highlights">Highlights include:</p>
+        <ul>
+            <li>Cathederal of Santa Maria del Fiore</li>
+            <li>Palazzo Vecchio</li>
+            <li>Uffizi Gallery</li>
+       
+        </ul>
+        
+        <p>Get a taste of the culture in Florence by taking in different attractions. Experience a beautiful cathedral, followed by the town hall of Florence. This hall overlooks some of the most unique places, icluding Piazza della Signoria, which is full of many famous statues. Finally, take in some of Florence's finest art at the Uffizi Gallery.</p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Façade_cathédrale_Florence.jpg/250px-Façade_cathédrale_Florence.jpg" alt="Cathedral of Santa Maria del Fiore" height="148">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Firenze_Palazzo_della_Signoria%2C_better_known_as_the_Palazzo_Vecchio.jpg" alt="Palazzo Vecchio" height="148">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Uffizi_Gallery%2C_Florence.jpg/800px-Uffizi_Gallery%2C_Florence.jpg" alt="Uffizi Gallery" height="148">
+  
+    </body>
+</html>
