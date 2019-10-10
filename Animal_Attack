@@ -1,0 +1,29 @@
+var bodyX = 200;
+var bodyY = 220;
+var bodyW = 117;
+var bodyH = bodyW/2;
+
+draw = function() {
+    background(207, 254, 255);
+    fill(255, 209, 247);
+    ellipse(bodyX, bodyY, bodyW, bodyW-9); // body?
+    ellipse(bodyX, bodyY+15, bodyH, 47); // face?
+    
+    //nose
+    fill(0, 0, 0);
+    ellipse(bodyX+12, bodyY+15, 5/117 * bodyW, 5/117 * bodyW); //right
+    ellipse(bodyX-12, bodyY+15, 5/117 * bodyW, 5/117 * bodyW); //left
+  
+    //eyes
+    ellipse(bodyX+25, bodyY-20, 10/117 * bodyW, 10/117 * bodyW); //right
+    ellipse(bodyX-25, bodyY-20, 10/117 * bodyW, 10/117 * bodyW);
+    
+    //ears
+    fill(255, 209, 247);
+    triangle(bodyX-45, bodyY-35, bodyX-8, bodyY-52, bodyX-38, bodyY-70);//left
+    triangle(bodyX+45, bodyY-35, bodyX+8, bodyY-52, bodyX+38, bodyY-70);
+    
+    bodyW +=1;
+   
+   
+};
