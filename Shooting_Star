@@ -1,0 +1,45 @@
+var xPos = 36;
+var yPos = 373;
+
+var x = 390;
+var y = 373;
+
+var xx = -160;
+
+
+draw = function() {
+    // background
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    ellipse(20, 20, 15, 15);
+    ellipse(108, 95, 15, 15);
+    ellipse(275, 65, 15, 15);
+    ellipse(324, 201, 15, 15);
+    ellipse(196, 308, 15, 15);
+    ellipse(355, 359, 15, 15);
+    ellipse(44, 184, 15, 15);
+    ellipse(74, 346, 15, 15);
+    ellipse(6, 278, 15, 15);
+    ellipse(394, 31, 15, 15);
+    
+    // original star
+    fill(255, 242, 0);
+    ellipse(xPos, yPos, 10, 10);
+    
+    xPos +=1;
+    yPos -=1;
+    
+    // another star
+    fill(255, 242, 0);
+    ellipse(x, y, 20, 20);
+    
+    x -=1;
+    y -=1;
+    
+      // explosion
+    fill(255, 179, 0);
+    ellipse(207, 187, xx, xx);
+    
+    xx +=1;
+
+};
