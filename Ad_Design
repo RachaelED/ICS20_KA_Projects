@@ -1,0 +1,47 @@
+var xPos = 4;
+var yPos = 265;
+
+draw = function() {
+background(255, 255, 255);
+fill(255, 0, 0);
+textSize(46);
+text("Pencil!", 138, 45);
+
+fill(0, 0, 255);
+textSize(20);
+text("doesn't break easily", 29, 105);
+text("comfortable grip", 85, 134);
+text("affordable price", 29, 158);
+textSize(16);
+text("Available at: Walmart and Staples", 96, 397);
+    
+    strokeWeight(1); // book
+    stroke(0, 0, 0);
+    fill(252, 251, 242);
+    rect(29, 190, 335, 189);
+    
+    fill(49, 222, 55); // price
+    stroke(0);
+    strokeWeight(1);
+    ellipse(336, 161, 120, 120);
+    fill(0, 0, 0);
+    textSize(16);
+    text("only", 321, 136);
+    textSize(30);
+    text("$0.99", 297, 174);
+    
+    strokeWeight(5); // pencil
+    stroke(245, 196, 73);
+    line(xPos, yPos, xPos + 152, yPos - 94);
+    
+    stroke(250, 120, 250); // eraser
+    line(xPos+152, yPos - 94, xPos + 161, yPos - 100);
+    
+    stroke(0, 0, 0); // tip
+    line(xPos, yPos, xPos - 4, yPos + 2);
+    
+    line(xPos -750, yPos, xPos, yPos);
+    
+    xPos += 1;
+    
+};
