@@ -1,0 +1,31 @@
+background(186, 145, 20); // wooden table
+ellipse(200, 200, 350, 350); // plate
+ellipse(200, 200, 300, 300); 
+
+// grapes
+fill(122, 18, 18);
+ellipse(123, 110, 30, 30);
+ellipse(154, 110, 30, 30);
+ellipse(184, 110, 30, 30);
+ellipse(138, 134, 30, 30);
+ellipse(167, 134, 30, 30);
+ellipse(153, 159, 30, 30);
+
+// bread
+stroke(135, 67, 67);
+strokeWeight(3); 
+fill(252, 229, 189);
+rect(133, 263, 65, 65);
+rect(163, 274, 65, 65);
+
+// mashed potatoes
+fill(255, 250, 224);
+strokeWeight(1);
+stroke(0, 0, 0);
+ellipse(284, 194, 108, 126);
+
+// meat
+stroke(59, 19, 19);
+fill(255, 231, 209);
+ellipse(106, 216, 94, 48);
+
