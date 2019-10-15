@@ -1,0 +1,30 @@
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+triangle(200, 104, 280, 280, 120, 280);
+fill(255, 255, 255);
+
+var answer = floor(random(1, 5));
+
+if (answer >= 4) {
+    fill(19, 240, 74);
+    text("It is", 187, 200);
+    text("CERTAIN", 171, 229); 
+} else {
+    if (answer >= 1 && answer < 2) {
+        fill(0, 0, 0);
+        text("It is", 187, 200);
+        text("UNLIKELY", 171, 229);
+    } else {
+        if (answer >= 3 && answer < 4) {
+            text("It is", 187, 200);
+            text("UNKNOWN", 171, 229);
+        } else {
+            if (answer >= 2 && answer < 3) {
+                fill(255, 0, 0);
+                text("Ask again", 174, 200);
+                text("LATER", 178, 229);
+            }
+        }
+    }
+}
