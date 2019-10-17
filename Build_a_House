@@ -1,0 +1,53 @@
+background(219, 255, 255);
+
+// fence
+for (var fence = 5; fence < 398; fence += 10) {
+    line(fence, 272, fence, 357);
+    for (var l = 281; l < 357; l += 10) {
+        line(0, l, 400, l); 
+    }
+}
+
+// house
+fill(255, 255, 255);
+rect(60, 150, 280, 207);
+
+// siding
+for (var b = 148;  b < 357; b += 10) {
+    fill(120, 80, 19);
+    stroke(0, 0, 0);
+    rect(60, b, 280, 10);
+}
+
+// roof
+fill(174, 180, 214);
+triangle(200, 28, 350, 150, 50, 150);
+
+// flowers
+for (var f = 73; f < 340; f +=20){
+    stroke(64, 255, 0);
+    line(f, 340, f, 357);
+    noStroke();
+    fill(255, 0, 0);
+    ellipse(f, 340, 17, 17);
+    fill(245, 228, 39);
+    ellipse(f, 340, 7, 7);
+}
+// door
+stroke(0, 0, 0);
+fill(120, 80, 19);
+rect(180, 280, 40, 77);
+
+// windows
+for (var x = 60; x < 340; x +=41.6) {
+    fill(255, 255, 255);
+    rect(x, 167, 30, 71);
+    stroke(0, 0, 0);
+    line(x + 15, 167, x + 15, 238);
+}
+
+//grass
+for (var g = 0; g < 400; g +=1.2){
+    stroke(0, 143, 29);
+    line(g, 360, g, 410);
+}
