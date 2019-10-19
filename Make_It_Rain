@@ -1,0 +1,21 @@
+var xPositions = [100, 150, 200, 250, 300, 350, 20, 300, 60, 50, 200, 80, 275, 380, 200, 175, 395, 210, 30, 50, 330, 20, 400, 270, 100];
+var yPositions = [0, 5, 147, 75, 38, 77, 40, 90, 45, 300, 100, 200, 250, 350, 375, 150, 357, 290, 30, 40, 200, 60, 238, 480, 390];
+
+draw = function() {
+    background(204, 247, 255);
+    
+       for (var i = 0; i < xPositions.length; i++) {
+        noStroke();
+        fill(0, 200, 255);
+        ellipse(xPositions[i], yPositions[i] % 400, 10, 10);
+        yPositions[i] += 5;
+    }
+    
+    if (mouseIsPressed) {
+        xPositions.push(mouseX);
+        yPositions.push(mouseY);
+    }
+    
+    
+};
+
